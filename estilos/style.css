@@ -14,7 +14,7 @@ html,body{
     height: 100vh;
 }
 main{
-    width: 250px;
+    width: 300px;
     background-color: white;
     position: absolute;
     border-radius: 20px;
@@ -26,7 +26,7 @@ main{
     transform: translate(-50%,-50%);
 }
 img{
-    width: 250px;
+    width: 300px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
@@ -50,9 +50,38 @@ p{
     margin: 8px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349);
+    height: 50px;
+}
+span#icon{
+    color: white;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+input#email{
+    margin-top: -43px;
+    width: 220px;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: rgb(226, 202, 171);
+    color:white;
+}
+
+input#senha{
+    margin-top: -43px;
+    width: 220px;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color:  rgb(226, 202, 171);
+    color:white;
 }
 input#entrar,input#forgot{
-    width: 240px;
+
+    width: 284px;
     height: 40px;
     margin-top: -10px;
     margin-bottom: 15px;
@@ -70,6 +99,7 @@ input#entrar:hover{
 input#forgot{
     color: #6B0F04;
     border: 1px solid #6B0F04;
+    margin-bottom: 30px;
 }
 input#forgot:hover{
     background-color: #9e1f11;
