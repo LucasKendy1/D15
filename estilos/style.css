@@ -2,7 +2,77 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --cor1:#3D0A94;
+    --cor2:#5b349e;
+}
+html,body{
+    background-image: linear-gradient(var(--cor1),var(--cor2));
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
 main{
-    width: 50%;
-    
+    width: 250px;
+    background-color: white;
+    position: absolute;
+    border-radius: 20px;
+    height: fit-content;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.301);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+img{
+    width: 250px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    font-size: small;
+    font-weight: 500;
+    padding: 10px;
+}
+.entrada{
+    margin: auto;
+    display: block;
+}
+
+p{
+    text-align: left;
+    background-color: var(--cor2);
+    margin: 8px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349);
+}
+input#entrar,input#forgot{
+    width: 240px;
+    height: 40px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+}
+input#entrar{
+    background-color: #941406;
+    color: white;
+}
+input#entrar:hover{
+    background-color: #6d1106;
+    color: white;
+}
+input#forgot{
+    color: #6B0F04;
+    border: 1px solid #6B0F04;
+}
+input#forgot:hover{
+    background-color: #9e1f11;
+    color: #ffffff;
+    border: 1px solid #6B0F04;
 }
