@@ -13,6 +13,10 @@ html,body{
     width: 100vw;
     height: 100vh;
 }
+h3{
+    text-align: center;
+    transform: translateY(-10px);
+}
 main{
     width: 300px;
     background-color: white;
@@ -109,4 +113,7 @@ input#forgot:hover{
     background-color: #6b543e;
     color: #ffffff;
     border: 1px solid #886A4E;
+}
+div{
+    display: none;
 }
