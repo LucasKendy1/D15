@@ -49,4 +49,25 @@
         border: none;
         margin-left: 330px;
     }
+    input#email{
+        margin-top: -43px;
+        width: 320px;
+        height: 40px;
+        margin-right: 5px;
+        border-radius: 10px;
+        padding-left: 10px;
+        background-color: rgb(226, 202, 171);
+        color:white;
+    }
+    
+    input#senha{
+        margin-top: -43px;
+        width: 320px;
+        height: 40px;
+        margin-right: 5px;
+        border-radius: 10px;
+        padding-left: 10px;
+        background-color:  rgb(226, 202, 171);
+        color:white;
+    }
 }

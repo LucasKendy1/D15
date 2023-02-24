@@ -89,20 +89,20 @@ input#entrar,input#forgot{
     border: none;
 }
 input#entrar{
-    background-color: #941406;
+    background-color: #886A4E;
     color: white;
 }
 input#entrar:hover{
-    background-color: #6d1106;
+    background-color: #68513c;
     color: white;
 }
 input#forgot{
-    color: #6B0F04;
-    border: 1px solid #6B0F04;
+    color: #886A4E;
+    border: 1px solid #886A4E;
     margin-bottom: 30px;
 }
 input#forgot:hover{
-    background-color: #9e1f11;
+    background-color: #6b543e;
     color: #ffffff;
-    border: 1px solid #6B0F04;
+    border: 1px solid #886A4E;
 }
